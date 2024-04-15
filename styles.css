@@ -50,24 +50,23 @@ canvas {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 96%;
+    width: 94%;
     height: 15vw;
     border-radius: 1vw;
     background-color: #1d1d1d;
-    gap: 2.3vw;
+    gap: 7.5vw;
     padding: 1vw;
 }
 
-button {
-    width: 16.5vw;
-    height: 8vw;
-    font-size: 3vw;
+#colorPicker{
+    display: none;
+}
+
+span {
+    font-size: 8vw;
     background: none;
     color: rgb(190, 189, 189);
-    border: 1px solid gray;
-    border-radius: .5vw;
-    font-family: sans-serif;
 }
-button:active{
+span:active{
     transform: scale(.8);
 }

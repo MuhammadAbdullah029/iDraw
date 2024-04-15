@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drawing App</title>
     <link rel="stylesheet" href="styles.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
 <body>
     <div class="container">
@@ -15,10 +19,11 @@
         <canvas id="canvas"></canvas>
         <div class="controls">
             <input type="color" id="colorPicker" value="#000000">
-            <button id="draw">Draw</button>
-            <button id="erase">Erase</button>
-            <button id="clear">Clear</button>
-            <button id="download">Download</button>
+            <span id="colors" ><i class="ri-palette-fill"></i></span>
+            <span id="draw"><i class="ri-pencil-fill"></i></span>
+            <span id="erase"><i class="ri-eraser-fill"></i></span>
+            <span id="clear"><i class="ri-clipboard-line"></i></span>
+            <span id="download"><i class="ri-chat-download-fill"></i></span>
         </div>
     </div>
     <script src="script.js"></script>

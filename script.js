@@ -58,6 +58,10 @@ document.addEventListener("DOMContentLoaded", function() {
     canvas.addEventListener('touchend', stopDrawing);
     canvas.addEventListener('touchcancel', stopDrawing);
 
+    document.getElementById('colors').addEventListener('click', function() {
+        colorPicker.click()
+    });
+
     document.getElementById('draw').addEventListener('click', function() {
         isErasing = false;
     });
