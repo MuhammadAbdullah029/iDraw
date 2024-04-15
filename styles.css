@@ -54,18 +54,21 @@ canvas {
     height: 15vw;
     border-radius: 1vw;
     background-color: #1d1d1d;
-    gap: 7.5vw;
+    gap: 2.3vw;
     padding: 1vw;
 }
 
-#colorPicker{
-    display: none;
-}
-
 span {
-    font-size: 8vw;
+    width: 16.5vw;
+    height: 8vw;
+    font-size: 3vw;
     background: none;
     color: rgb(190, 189, 189);
+    border:  1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
 }
 span:active{
     transform: scale(.8);
