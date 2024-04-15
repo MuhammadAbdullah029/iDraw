@@ -58,8 +58,12 @@ canvas {
     padding: 1vw;
 }
 
+#colorPicker{
+    display: none;
+}
+
 span {
-    width: 16.5vw;
+    width: 15vw;
     height: 8vw;
     font-size: 3vw;
     background: none;
